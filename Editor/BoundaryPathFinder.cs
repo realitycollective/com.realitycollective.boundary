@@ -4,15 +4,15 @@
 using RealityCollective.ServiceFramework.Editor;
 using UnityEngine;
 
-namespace RealityToolkit.UPMTEMPLATE.Editor
+namespace RealityToolkit.Boundary.Editor
 {
     /// <summary>
     /// Dummy scriptable object used to find the relative path of the package.
     /// </summary>
     /// <inheritdoc cref="IPathFinder" />
-    public class UPMTEMPLATEPackagePathFinder : ScriptableObject, IPathFinder
+    public class BoundaryPackagePathFinder : ScriptableObject, IPathFinder
     {
         /// <inheritdoc />
-        public string Location => $"/Editor/{nameof(UPMTEMPLATEPackagePathFinder)}.cs";
+        public string Location => $"/Editor/{nameof(BoundaryPackagePathFinder)}.cs";
     }
 }

@@ -7,16 +7,16 @@ using UnityEngine.XR;
 using XRTK.Definitions.Platforms;
 using XRTK.Interfaces;
 
-namespace RealityToolkit.UPMTEMPLATE
+namespace RealityToolkit.Boundary
 {
     /// <summary>
-    /// Used by the toolkit to signal that a feature is available on the UPMTEMPLATE platform.
+    /// Used by the toolkit to signal that a feature is available on the Boundary platform.
     /// </summary>
-    [System.Runtime.InteropServices.Guid("UPMTEMPLATEGUID")]
-    public class UPMTEMPLATEPlatform : BasePlatform
+    [System.Runtime.InteropServices.Guid("4de6d772-bbab-4812-97c6-5808708b4f08")]
+    public class BoundaryPlatform : BasePlatform
     {
-        private const string xrDisplaySubsystemDescriptorId = "UPMTEMPLATE Display";
-        private const string xrInputSubsystemDescriptorId = "UPMTEMPLATE Input";
+        private const string xrDisplaySubsystemDescriptorId = "Boundary Display";
+        private const string xrInputSubsystemDescriptorId = "Boundary Input";
 
         /// <inheritdoc />
         public override IMixedRealityPlatform[] PlatformOverrides { get; } =
@@ -28,7 +28,7 @@ namespace RealityToolkit.UPMTEMPLATE
 		Choose a path for Is Platform available at runtime
         /// <inheritdoc />
         public override bool IsAvailable =>
-            !Application.isEditor && UPMTEMPLATEApi.Version > NoVersion && UPMTEMPLATEApi.Initialized;		
+            !Application.isEditor && BoundaryApi.Version > NoVersion && BoundaryApi.Initialized;		
 */
         /// <inheritdoc />
         public override bool IsAvailable
