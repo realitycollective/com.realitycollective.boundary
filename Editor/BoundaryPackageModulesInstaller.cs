@@ -11,8 +11,8 @@ using UnityEditor;
 namespace RealityToolkit.Boundary.Editor
 {
     /// <summary>
-    /// Installs <see cref="IBoundaryModule"/>s coming from a third party package
-    /// into the <see cref="BoundaryProfile"/> in the <see cref="ServiceManager.ActiveProfile"/>.
+    /// Installs <see cref="IBoundaryServiceModule"/>s coming from a third party package
+    /// into the <see cref="BoundaryServiceProfile"/> in the <see cref="ServiceManager.ActiveProfile"/>.
     /// </summary>
     [InitializeOnLoad]
     public sealed class BoundaryPackageModulesInstaller : IPackageModulesInstaller
