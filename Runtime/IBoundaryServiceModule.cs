@@ -1,7 +1,6 @@
 ﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using RealityCollective.ServiceFramework.Interfaces;
 using RealityToolkit.Boundary.Definitions;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +11,7 @@ namespace RealityToolkit.Boundary
     /// Boundary service module provide low level data access for the <see cref="IBoundaryService"/> to query
     /// platform boundary state.
     /// </summary>
-    public interface IBoundaryServiceModule : IServiceModule
+    public interface IBoundaryServiceModule : IRealityToolkitServiceModule
     {
         /// <summary>
         /// Gets the current boundary visibility.
