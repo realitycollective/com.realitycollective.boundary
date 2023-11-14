@@ -20,6 +20,6 @@ MonoBehaviour:
   showFloor: 1
   floorMaterial: {fileID: 2100000, guid: cff739f75e6f4d2aa27638b66200ef95, type: 2}
   showWalls: 0
-  wallMaterial: {fileID: 0}
+  wallMaterial: {fileID: 2100000, guid: 86884506517247c991a07caf162eeba4, type: 2}
   showCeiling: 0
-  ceilingMaterial: {fileID: 0}
+  ceilingMaterial: {fileID: 2100000, guid: cff739f75e6f4d2aa27638b66200ef95, type: 2}
