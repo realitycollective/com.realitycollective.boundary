@@ -2,6 +2,10 @@
   "name": "com.realitytoolkit.boundary",
   "displayName": "RealityToolkit.Boundary",
   "description": "A boundary system for use with the Reality Toolkit.",
+  "version": "1.0.0-pre.2",
+  "documentationUrl": "https://realitytoolkit.io",
+  "changelogUrl": "https://github.com/realitycollective/com.realitytoolkit.boundary/releases",
+  "licensesUrl": "https://github.com/realitycollective/com.realitytoolkit.boundary/blob/main/LICENSE.md",
   "keywords": [
     "VR",
     "AR",
@@ -9,11 +13,10 @@
     "Mixed Reality",
     "Boundary"
   ],
-  "version": "1.0.0-pre.2",
-  "unity": "2021.3",
+  "unity": "2022.3",
   "homepage": "https://github.com/realitycollective",
   "bugs": {
-    "url": "https://github.com/realitycollective/realitytoolkit.dev/issues"
+    "url": "https://github.com/realitycollective/com.realitytoolkit.boundary/issues"
   },
   "license": "MIT",
   "repository": {
@@ -25,8 +28,11 @@
     "email": "realitycollectivedev@gmail.com",
     "url": "https://github.com/realitycollective"
   },
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  },
   "dependencies": {
-    "com.realitytoolkit.core": "1.0.0-pre.37"
+    "com.realitytoolkit.core": "1.0.0-pre.48"
   },
   "assets": [
     {
