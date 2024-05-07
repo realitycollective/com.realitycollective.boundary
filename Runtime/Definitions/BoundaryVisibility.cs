@@ -1,4 +1,4 @@
-// Copyright (c) Reality Collective. All rights reserved.
+﻿// Copyright (c) Reality Collective. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
 namespace RealityToolkit.Boundary.Definitions
@@ -11,7 +11,7 @@ namespace RealityToolkit.Boundary.Definitions
     {
         /// <summary>
         /// The boundaries visibility status is unknown. Platform boundaries visibility
-        /// may be unknown e.g. when the platform does not provide an API for XRTK to query
+        /// may be unknown e.g. when the platform does not provide an API for Reality Toolkit to query
         /// boundary visibility state.
         /// </summary>
         Unknown = 0,
