@@ -2,7 +2,7 @@
   "name": "com.realitytoolkit.boundary",
   "displayName": "RealityToolkit.Boundary",
   "description": "A boundary system for use with the Reality Toolkit.",
-  "version": "1.0.0-pre.3",
+  "version": "1.0.0-pre.4",
   "documentationUrl": "https://realitytoolkit.io",
   "changelogUrl": "https://github.com/realitycollective/com.realitytoolkit.boundary/releases",
   "licensesUrl": "https://github.com/realitycollective/com.realitytoolkit.boundary/blob/main/LICENSE.md",
