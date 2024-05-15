@@ -374,19 +374,6 @@ namespace RealityToolkit.Boundary
         }
 
         /// <inheritdoc/>
-        public override void Disable()
-        {
-            base.Disable();
-
-            if (!Application.isPlaying) { return; }
-
-            if (!boundaryVisualizationRoot.IsNull())
-            {
-                boundaryVisualizationRoot.SetActive(false);
-            }
-        }
-
-        /// <inheritdoc/>
         public override void Destroy()
         {
             base.Destroy();
